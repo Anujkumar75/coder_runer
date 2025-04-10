@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="script.js"> </script>
+</head>
+<body>
+    <header style="font-family: sans-serif;"><center>Text Editor ver.1.0.0</center></header>
+    <fieldset id="code-box" class="animate__animated animate__backInLeft">
+        <legend>TYPE YOUR CODE HERE</legend>
+        <textarea id="code">
+            <!DOCTYPE html>
+            <html>
+                <head>
+                    <title>
+                        anuj
+                    </title>
+                </head>
+                <body>
+                    
+                </body>
+            </html>
+        </textarea>
+    </fieldset>
+    <fieldset id="show" class="animate__animated animate__backInLeft">
+        <legend>YOUR CODE RESULT</legend>
+        <div id="result">
+
+        </div>
+    </fieldset>
+    
+    <center>
+        <button id="run_btn" onclick="run()">Run Code</button><button onclick="back()" id="icon">Return to code</button>
+    </center>
+   
+</body>
+</html>
